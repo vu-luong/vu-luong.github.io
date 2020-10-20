@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '',
   siteUrl: 'https://vu-luong.github.io',
-  siteTitle: 'Vu Luong',
-  siteDescription: 'Personal website of Vu Luong',
-  author: 'Vu Luong',
+  siteTitle: 'Anh Vu Luong',
+  siteDescription: 'Personal website of Anh Vu Luong',
+  author: 'Anh Vu Luong',
   postsForArchivePage: 3, // TODO
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js', // TODO

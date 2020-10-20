@@ -6,7 +6,7 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: 'Hello !! My name is Vu Luong. I\'m currently a Computer Science PhD student at Griffith University',
+  paraOne: 'Hello !! My name is Anh Vu Luong. I\'m currently a Computer Science PhD student at Griffith University',
   paraTwo: 'My research focuses on Streaming Machine Learning',
 };
 
@@ -19,7 +19,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Vu', 'Luong', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Anh', 'Vu', 'Luong', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
