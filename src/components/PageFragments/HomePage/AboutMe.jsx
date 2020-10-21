@@ -76,7 +76,7 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
+            textH4="Studying PhD in"
             textH3="Computer Science"
             height={60}
             width={60}
