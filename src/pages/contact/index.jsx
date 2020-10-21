@@ -15,7 +15,7 @@ const Contact = () => (
                     technologies especially Javascript techstacks. Currently I'm a part of Gatsby organization on github.
                     Find me on github - rolwin100."
         path="/contact"
-        keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
+        keywords={['Anh', 'Vu', 'Luong', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
       />
       <Header />
       <SidebarWrapper>
