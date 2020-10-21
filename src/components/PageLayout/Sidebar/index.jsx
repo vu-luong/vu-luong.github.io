@@ -48,12 +48,11 @@ const DomContent = () => (
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
-          {' '}
-&nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="mailto:vubinhcht@gmail.com"
             target="_top"
           >
+            &nbsp; &nbsp; &nbsp;
             <span className={style.emailHider}>@</span>
           </a>
         </li>
