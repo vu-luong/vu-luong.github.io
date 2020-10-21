@@ -19,6 +19,7 @@ module.exports = {
     facebook: 'https://www.facebook.com/vubinhne',
     twitter: 'https://twitter.com/vubinhne',
     instagram: '',
+    scholar: 'https://scholar.google.com/citations?user=17fhKO0AAAAJ&hl=en&oi=sra',
     rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451', // TODO
