@@ -52,8 +52,7 @@ const DomContent = () => (
             href="mailto:vubinhcht@gmail.com"
             target="_top"
           >
-            &nbsp; &nbsp; &nbsp;
-            <span className={style.emailHider}>@</span>
+            &nbsp; &nbsp; vubinhcht@gmail.com
           </a>
         </li>
       </ul>
