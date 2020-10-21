@@ -10,12 +10,12 @@ const Contact = () => (
     <Layout className="container">
       <SEO
         title="Contact"
-        description="Hello folks Rolwin here. You can contact me through the contact form on this page.
-                    Please feel free to contact me, don't be shy guys, just remember Rolwin is always open to talk about web
-                    technologies especially Javascript techstacks. Currently I'm a part of Gatsby organization on github.
-                    Find me on github - rolwin100."
+        description="Hello folks Vu Luong here. You can contact me through the contact form on this page.
+                    Please feel free to contact me, don't be shy guys, just remember Vu Luong is always open to talk about Machine Learning (ML), Online ML, Incremental ML, Streaming ML.
+                    Currently I'm a PhD student at Griffith University. Find me on github - vu-luong"
         path="/contact"
-        keywords={['Anh', 'Vu', 'Luong', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
+        keywords={['Anh', 'Vu', 'Luong', 'FullStack developer', 'Python',
+          'ReactJS', 'Machine Learning', 'Online Learning', 'Streaming Machine Learning']}
       />
       <Header />
       <SidebarWrapper>
