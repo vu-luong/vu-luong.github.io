@@ -17,8 +17,11 @@ export default () => (
     >
       <Header />
       <SidebarWrapper>
-        <div>
+        <div id="vubinh">
           <AboutMe />
+          <Experience />
+          <Experience />
+          <Experience />
           <Experience />
           <SkillsProgress />
         </div>

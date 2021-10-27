@@ -22,9 +22,7 @@ const DomContent = () => (
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
         <h2>
-          Anh Vu
-          {' '}
-          <span>Luong</span>
+          <span>Vu Luong</span>
         </h2>
       </div>
       <div className={`${style.badge} ${style.badgeGray}`}>Griffith University</div>
@@ -106,7 +104,7 @@ const Sidebar = (props) => {
             <Col sm={24} md={9} lg={6} className={style.sidebarContent}>
               {domContent}
             </Col>
-            <Col sm={24} md={15} lg={18}>
+            <Col sm={24} md={15} lg={18} className={style.mainContent}>
               <Layout className={`${style.background} ${style.boxContent} borderRadiusSection`}>
                 {children}
               </Layout>

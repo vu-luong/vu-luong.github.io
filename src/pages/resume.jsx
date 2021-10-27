@@ -8,7 +8,7 @@ export default function Resume() {
     <div>
       <SEO
         title="Resume"
-        description=""
+        description="Vu Luong's resume"
         path="resume"
       />
       <Document
