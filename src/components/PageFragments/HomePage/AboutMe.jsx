@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'antd';
-import { stripTags, domHtml } from '../../../utils/stripTags';
+import { domHtml, stripTags } from '../../../utils/stripTags';
 
 import SEO from '../../Seo';
 import AboutTile from '../../AbouTile';
@@ -15,7 +15,7 @@ const pageText = {
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
   return (
-    <>
+    <div>
       <div>
         <SEO
           title="About"
@@ -86,7 +86,7 @@ const AboutMe = () => {
           />
         </Col>
       </Row>
-    </>
+    </div>
   );
 };
 export default AboutMe;

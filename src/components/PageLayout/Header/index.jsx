@@ -20,7 +20,7 @@ export default () => {
     }
   };
   return (
-    <>
+    <div style={{ background: '#ff8100' }}>
       <div
         className={style.circleMenu}
         role="button"
@@ -89,6 +89,6 @@ export default () => {
           </ul>
         </div>
       </Layout>
-    </>
+    </div>
   );
 };
