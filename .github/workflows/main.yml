@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.GITHUBIO }}
+          access-token: ${{ secrets.GHTOKEN }}
           deploy-branch: master
         env:
-          GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GITHUBIO }}
+          GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GHTOKEN }}
           GATSBY_PORTFOLIO_RECAPTCHA_KEY: ${{ secrets.RECAPTCHA }}
           GATSBY_PORTFOLIO_FORMIK_ENDPOINT: ${{ secrets.FORMIK_ENDPOINT }}
 
