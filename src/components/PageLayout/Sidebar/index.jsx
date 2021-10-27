@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  Affix, Layout, Row, Col,
-} from 'antd';
+import { Affix, Layout, Row, Col } from 'antd';
 import FA from 'react-fontawesome';
 import FeatherIcon from 'feather-icons-react';
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -12,7 +10,10 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  facebook, github, scholar, twitter,
+  facebook,
+  github,
+  scholar,
+  twitter,
 } = Config.social;
 
 const DomContent = () => (
@@ -28,10 +29,26 @@ const DomContent = () => (
       </div>
       <div className={`${style.badge} ${style.badgeGray}`}>Griffith University</div>
       <div className="centerAlign box">
-        <a href={scholar} target="_blank" label="button" rel="noopener noreferrer"><FA name="graduation-cap" /></a>
-        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
-        <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
-        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
+        <a href={scholar} target="_blank" label="button" rel="noopener noreferrer">
+          <FA
+            name="graduation-cap"
+          />
+        </a>
+        <a href={github} target="_blank" label="button" rel="noopener noreferrer">
+          <FA
+            name="github"
+          />
+        </a>
+        <a href={facebook} target="_blank" label="button" rel="noopener noreferrer">
+          <FA
+            name="facebook-f"
+          />
+        </a>
+        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer">
+          <FA
+            name="twitter"
+          />
+        </a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
@@ -39,12 +56,12 @@ const DomContent = () => (
             <FeatherIcon size="19" icon="calendar" />
             {' '}
           </span>
-&nbsp; &nbsp; Sep 17, 1995
+          &nbsp; &nbsp; Sep 17, 1995
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
-&nbsp; &nbsp; Gold Coast, Australia
+          &nbsp; &nbsp; Gold Coast, Australia
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
@@ -87,11 +104,11 @@ const Sidebar = (props) => {
         <Content className={`${style.content} ${style.background}`}>
           <Row>
             <Col sm={24} md={9} lg={6} className={style.sidebarContent}>
-              { domContent }
+              {domContent}
             </Col>
             <Col sm={24} md={15} lg={18}>
               <Layout className={`${style.background} ${style.boxContent} borderRadiusSection`}>
-                { children }
+                {children}
               </Layout>
             </Col>
           </Row>

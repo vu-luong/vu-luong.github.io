@@ -1,13 +1,15 @@
 import React from 'react';
-import { Row, Col } from 'antd';
-import AboutTile from '../../AbouTile';
+import { Col, Row } from 'antd';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 
 import SEO from '../../Seo';
+import AboutTile from '../../AbouTile';
 
 const pageText = {
-  paraOne: 'Hello !! My name is Anh Vu Luong. I\'m currently a Computer Science PhD student at Griffith University',
-  paraTwo: 'My research focuses on Streaming Machine Learning',
+  paraOne: 'I\'m a Machine Learning researcher at Griffith University, an open-source contributor '
+    + 'at Young Monkeys Org.',
+  // paraTwo: 'My research focuses on Streaming Machine Learning',
+  paraTwo: '',
 };
 
 const AboutMe = () => {
@@ -26,6 +28,7 @@ const AboutMe = () => {
         <p>
           {pageText.paraOne}
         </p>
+        {/* eslint-disable-next-line react/no-danger */}
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
       </div>
       <Row gutter={[20, 20]}>

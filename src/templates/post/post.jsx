@@ -41,6 +41,7 @@ const Post = ({ data }) => {
             <div className={style.bannerImgContainer}>
               <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
             </div>
+            {/* eslint-disable-next-line react/no-danger */}
             <article className={style.blogArticle} dangerouslySetInnerHTML={{ __html: html }} />
             <Comment pageCanonicalUrl={canonicalUrl} pageId={title} />
           </div>

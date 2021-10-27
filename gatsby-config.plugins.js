@@ -16,7 +16,7 @@ module.exports = [
   {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      name: 'Anh Vu Luong',
+      name: 'Vu Luong',
       short_name: 'Vu Luong',
       start_url: '/',
       background_color: '#304CFD',

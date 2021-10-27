@@ -1,6 +1,4 @@
-import {
-  Col, Form, Input, Button, message,
-} from 'antd';
+import { Col, Form, Input, Button, message } from 'antd';
 import React from 'react';
 import Config from '../../../../config';
 

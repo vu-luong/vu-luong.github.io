@@ -1,8 +1,6 @@
 /* eslint-disable react/forbid-prop-types */
 import React from 'react';
-import {
-  Layout, Row, Col,
-} from 'antd';
+import { Layout, Row, Col } from 'antd';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Header from '../../components/PageLayout/Header';

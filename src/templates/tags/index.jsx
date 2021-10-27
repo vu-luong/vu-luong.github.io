@@ -4,9 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import {
-  Layout, Row, Col,
-} from 'antd';
+import { Layout, Row, Col } from 'antd';
 /* App imports */
 import SEO from '../../components/Seo';
 import Header from '../../components/PageLayout/Header';

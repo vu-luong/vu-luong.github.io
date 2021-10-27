@@ -16,7 +16,7 @@ module.exports = {
   },
   social: {
     github: 'https://github.com/vu-luong',
-    facebook: 'https://www.facebook.com/vubinhne',
+    facebook: 'https://www.facebook.com/vuluong17',
     twitter: 'https://twitter.com/vubinhne',
     instagram: '',
     scholar: 'https://scholar.google.com/citations?user=17fhKO0AAAAJ&hl=en&oi=sra',
