@@ -1,11 +1,12 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf';
 // eslint-disable-next-line import/no-unresolved
+import { Layout } from 'antd';
 import SEO from '../components/Seo';
 
 export default function Resume() {
   return (
-    <div>
+    <Layout className="outerPadding">
       <SEO
         title="Resume"
         description="Vu Luong's resume"
@@ -36,6 +37,6 @@ export default function Resume() {
         </div>
 
       </Document>
-    </div>
+    </Layout>
   );
 }
