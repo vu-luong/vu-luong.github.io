@@ -7,6 +7,7 @@ import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
 import { useWindowSize } from '../../../utils/hooks';
 import Config from '../../../../config';
+import icon from '../../../images/icon.svg';
 
 const { Content } = Layout;
 const {
@@ -22,6 +23,15 @@ const DomContent = () => (
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
         <h2>
+          <img
+            src={icon}
+            style={{
+              width: 32,
+            }}
+            alt="VL Logo"
+          />
+          {' '}
+          {' '}
           <span>Vu Luong</span>
         </h2>
       </div>
