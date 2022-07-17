@@ -15,7 +15,7 @@ const pageText = {
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
   return (
-    <div>
+    <div style={{ lineHeight: '180%' }}>
       <div>
         <SEO
           title="About"

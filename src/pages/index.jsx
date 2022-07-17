@@ -6,6 +6,7 @@ import SidebarWrapper from '../components/PageLayout/Sidebar';
 import AboutMe from '../components/PageFragments/HomePage/AboutMe';
 import SkillsProgress from '../components/PageFragments/HomePage/SkillProgress';
 import Experience from '../components/PageFragments/HomePage/Experience';
+import SelectedProjects from '../components/PageFragments/HomePage/SelectedProjects';
 
 export default () => (
   <Layout className="outerPadding">
@@ -20,9 +21,7 @@ export default () => (
         <div id="vubinh">
           <AboutMe />
           <Experience />
-          <Experience />
-          <Experience />
-          <Experience />
+          <SelectedProjects />
           <SkillsProgress />
         </div>
       </SidebarWrapper>

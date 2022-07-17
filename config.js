@@ -6,7 +6,7 @@ module.exports = {
   author: 'Vu Luong',
   postsForArchivePage: 3, // TODO
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js', // TODO
+  disqusScript: process.env.DISQUS_SCRIPT || '',
   pages: {
     home: '/',
     blog: 'blog',
