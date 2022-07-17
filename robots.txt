@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://vu-luong.github.io/sitemap.xml
+Host: https://vu-luong.github.io
